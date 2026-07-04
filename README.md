@@ -1,23 +1,22 @@
 # 🤖 Docchat
-
 Docchat is a local Retrieval-Augmented Generation (RAG) application built with Python. It allows users to upload PDF documents and ask questions based on the document's content.
 
 ![Streamlit UI Interface](ui_screenshot.png.png)
 
-## 🚀 Features
+## Features
 - **Local & Private:** Everything runs locally on your machine using Ollama. No data is sent to external APIs.
 - **Fast Vector Search:** Uses Qdrant vector database for lightning-fast document retrieval.
 - **Interactive UI:** Clean and easy-to-use Streamlit web interface.
 - **Accurate Answers:** Powered by LangChain and Llama 3.2.
 
-## 🛠️ Prerequisites
+## Prerequisites
 Before running the application, make sure you have the following installed:
 1. **Python 3.9+**
 2. **Docker Desktop** (Required for Qdrant Vector DB)
 3. **Ollama** (Required for the LLM)
    - Install Ollama and run: `ollama pull llama3.2:latest`
 
-## ⚙️ Installation
+## Installation
 
 1. **Clone the repository:**
    ```bash
@@ -35,7 +34,7 @@ Before running the application, make sure you have the following installed:
    docker run -p 6333:6333 -p 6334:6334 -v qdrant_storage:/qdrant/storage:z qdrant/qdrant
    ```
 
-## 🎯 Usage
+## Usage
 
 1. Run the Streamlit application:
    ```bash
@@ -46,7 +45,7 @@ Before running the application, make sure you have the following installed:
 4. Click **"Create Embeddings"**.
 5. Start chatting with your document!
 
-## 🧩 Technologies Used
+## Technologies Used
 - **Streamlit**: Web Interface
 - **LangChain**: LLM Framework
 - **Qdrant**: Vector Database
