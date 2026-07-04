@@ -2,7 +2,7 @@
 
 Docchat is a local Retrieval-Augmented Generation (RAG) application built with Python. It allows users to upload PDF documents and ask questions based on the document's content.
 
-![Streamlit UI Interface](ui_screenshot.png)
+![Streamlit UI Interface](ui_screenshot.png.png)
 
 ## 🚀 Features
 - **Local & Private:** Everything runs locally on your machine using Ollama. No data is sent to external APIs.
